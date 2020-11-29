@@ -3,9 +3,14 @@
 
     <!--LOGIN ACTIVITY-->
     <string name="welcome">Welcome to the Marvel HQ\'s</string>
+    <string name="name">Digite seu nome</string>
     <string name="email">Digite seu email</string>
     <string name="senha">Digite sua senha</string>
     <string name="checkbox">Remember</string>
     <string name="login">Login</string>
     <string name="create">Create account</string>
+
+    <!--LOGIN ACTIVITY-->
+    <string name="title">Register</string>
+    <string name="save">Save</string>
 </resources>
