@@ -1,7 +1,8 @@
-package com.example.desafiointegrador3
+package com.example.desafiointegrador3.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.desafiointegrador3.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
