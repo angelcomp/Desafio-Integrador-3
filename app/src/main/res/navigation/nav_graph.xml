@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.desafiointegrador3.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_comicDetailFragment"
+            app:destination="@id/comicDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comicDetailFragment"
+        android:name="com.example.desafiointegrador3.ComicDetailFragment"
+        android:label="fragment_comic_detail"
+        tools:layout="@layout/fragment_comic_detail" >
+        <argument
+            android:name="comic"
+            app:argType="com.example.desafiointegrador3.utils.Results" />
+        <action
+            android:id="@+id/action_comicDetailFragment_to_comicThumbnailFragment"
+            app:destination="@id/comicThumbnailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comicThumbnailFragment"
+        android:name="com.example.desafiointegrador3.ComicThumbnailFragment"
+        android:label="fragment_comic_thumbnail"
+        tools:layout="@layout/fragment_comic_thumbnail" >
+        <argument
+            android:name="thumb"
+            app:argType="com.example.desafiointegrador3.utils.Thumbnail" />
+    </fragment>
+</navigation>

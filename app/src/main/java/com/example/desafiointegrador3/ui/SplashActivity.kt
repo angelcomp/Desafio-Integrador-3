@@ -1,4 +1,4 @@
-package com.example.desafiointegrador3.activities
+package com.example.desafiointegrador3.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
