@@ -62,5 +62,9 @@ class ComicDetailFragment : Fragment() {
             val thumb = ComicDetailFragmentDirections.actionComicDetailFragmentToComicThumbnailFragment(args.comic.thumbnail)
             findNavController().navigate(thumb)
         }
+
+        iv_backComic.setOnClickListener {
+            findNavController().popBackStack()
+        }
     }
 }
