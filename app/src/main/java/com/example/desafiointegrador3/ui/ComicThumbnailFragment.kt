@@ -1,4 +1,4 @@
-package com.example.desafiointegrador3
+package com.example.desafiointegrador3.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,8 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
+import com.example.desafiointegrador3.ui.ComicThumbnailFragmentArgs
+import com.example.desafiointegrador3.R
 import com.squareup.picasso.Picasso
-import kotlinx.android.synthetic.main.fragment_comic_detail.*
 import kotlinx.android.synthetic.main.fragment_comic_thumbnail.*
 
 class ComicThumbnailFragment : Fragment() {

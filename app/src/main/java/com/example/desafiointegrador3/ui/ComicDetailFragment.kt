@@ -1,20 +1,17 @@
-package com.example.desafiointegrador3
+package com.example.desafiointegrador3.ui
 
-import android.content.ContentValues.TAG
 import android.os.Bundle
-import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
-import com.example.desafiointegrador3.utils.Comic
-import com.example.desafiointegrador3.utils.Thumbnail
+import com.example.desafiointegrador3.ui.ComicDetailFragmentArgs
+import com.example.desafiointegrador3.ui.ComicDetailFragmentDirections
+import com.example.desafiointegrador3.R
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragment_comic_detail.*
-import kotlin.math.log10
 
 
 class ComicDetailFragment : Fragment() {

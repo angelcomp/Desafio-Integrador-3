@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.desafiointegrador3.MainFragment"
+        android:name="com.example.desafiointegrador3.ui.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/comicDetailFragment"
-        android:name="com.example.desafiointegrador3.ComicDetailFragment"
+        android:name="com.example.desafiointegrador3.ui.ComicDetailFragment"
         android:label="fragment_comic_detail"
         tools:layout="@layout/fragment_comic_detail" >
         <argument
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/comicThumbnailFragment"
-        android:name="com.example.desafiointegrador3.ComicThumbnailFragment"
+        android:name="com.example.desafiointegrador3.ui.ComicThumbnailFragment"
         android:label="fragment_comic_thumbnail"
         tools:layout="@layout/fragment_comic_thumbnail" >
         <argument
