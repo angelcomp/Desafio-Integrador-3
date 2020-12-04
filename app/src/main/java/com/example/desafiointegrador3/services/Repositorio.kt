@@ -12,7 +12,9 @@ interface Service {
     suspend fun getComics(
             @Query("ts") ts: String,
             @Query("apikey") apikey: String,
-            @Query("hash") hash: String
+            @Query("hash") hash: String,
+            @Query("orderBy") orderBy: String = "-issueNumber",
+            @Query("limit") limit: String = "21"
     ): Comic
 }
 
