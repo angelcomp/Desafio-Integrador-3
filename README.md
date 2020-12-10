@@ -9,6 +9,7 @@ há uma descrição, data de lançamento, preço, quantidade de páginas e opç�
 ------------ 
 
 **Preview**
+
 ![alt-text](https://github.com/angelcomp/Desafio-Integrador-3/blob/main/gif/spider.gif)
 
 ------------ 
